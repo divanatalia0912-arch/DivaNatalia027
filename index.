@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kartu Data Diva</title>
+
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background: #d9d9d9;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card {
+        width: 430px;
+        background: white;
+        border-radius: 16px;
+        overflow: hidden;
+        box-shadow: 0 4px 15px rgba(0,0,0,0.25);
+    }
+
+    .purple-box {
+        background: #7a1fa2;
+        color: white;
+        padding: 25px;
+        font-size: 18px;
+        line-height: 1.7;
+    }
+</style>
+</head>
+
+<body>
+
+<div class="card">
+    <div class="purple-box">
+        <b>Nama:</b> Diva Putri Natalia <br>
+        <b>NIM:</b> 240601110027 <br>
+        <b>TTL:</b> Malang, 09 Desember 2005 <br>
+        <b>Status:</b> Mahasiswa
+    </div>
+</div>
+
+</body>
+</html>
